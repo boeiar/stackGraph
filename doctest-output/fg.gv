@@ -1,0 +1,35 @@
+// smallGraph
+digraph {
+	20 [label=__iar_program_start]
+	21 [label=__cmain]
+	20 -> 21
+	19 [label=main]
+	21 -> 19
+	0 [label=f0]
+	19 -> 0
+	1 [label=f1]
+	0 -> 1
+	2 [label=f2]
+	1 -> 2
+	3 [label=f3]
+	2 -> 3
+	10 [label=g1]
+	3 -> 10
+	11 [label=g2]
+	10 -> 11
+	12 [label=g3]
+	11 -> 12
+	13 [label=g4]
+	12 -> 13
+	14 [label=g5]
+	13 -> 14
+	15 [label=g6]
+	14 -> 15
+	16 [label=g7]
+	15 -> 16
+	17 [label=g8]
+	16 -> 17
+	18 [label=g9]
+	17 -> 18
+	24 [label=__default_handler]
+}
