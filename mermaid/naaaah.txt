@@ -1,0 +1,97 @@
+Want a graph showing  <function> content as consecutive nodes from below xml-fragment
+      <entry>
+        <function>3</function>
+      </entry>
+      <entry>
+        <function>4</function>
+      </entry>
+      <entry>
+        <function>2</function>
+      </entry>
+      <entry>
+        <function>0</function>
+      </entry>
+      <entry>
+        <function>1</function>
+      </entry>
+=======
+graph TD
+    subgraph Functions
+    f0["Function 0"]
+    f1["Function 1"]
+    f2["Function 2"]
+    f3["Function 3"]
+    f4["Function 4"]
+    end
+    end["End"]
+    end --> f0
+    f0 --> f2
+    f2 --> f4
+    f4 --> f1
+    f1 --> f3
+    f3 --> end
+end
+
+graph TD
+    subgraph Functions
+    f0["Function 0"]
+    f1["Function 1"]
+    f2["Function 2"]
+    f3["Function 3"]
+    f4["Function 4"]
+    f0 --> f2
+    f2 --> f4
+    f4 --> f1
+    f1 --> f3
+    f3 --> end
+end
+
+
+Please generate a callgraph for functions from below xml-fragment
+      <entry>
+        <function>3</function>
+      </entry>
+      <entry>
+        <function>4</function>
+      </entry>
+      <entry>
+        <function>2</function>
+      </entry>
+      <entry>
+        <function>0</function>
+      </entry>
+      <entry>
+        <function>1</function>
+      </entry>
+      
+In this Mermaid graph:
+
+    f0, f1, f2, f3, and f4 represent the individual functions mentioned in the XML fragment.
+    end represents the end point of the call graph.
+    The arrows indicate the call flow between the functions, where f0 calls f2, f2 calls f4, f4 calls f1, f1 calls f3, and f3 leads to the end point.
+
+Please note that the function names in the graph are placeholders ("Function 0", "Function 1", etc.). You can replace them with the actual names or identifiers of the functions based on your specific scenario.
+
+
+graph TD
+    start["Start"]
+    entry1["entry"]
+    entry2["entry"]
+    entry3["entry"]
+    entry4["entry"]
+    entry5["entry"]
+    start --> entry1
+    entry1 --> function1["function: 3"]
+    entry1 --> entry2
+    entry2 --> function2["function: 4"]
+    entry2 --> entry3
+    entry3 --> function3["function: 2"]
+    entry3 --> entry4
+    entry4 --> function4["function: 0"]
+    entry4 --> entry5
+    entry5 --> function5["function: 1"]
+    function1 --> end["End"]
+    function2 --> end
+    function3 --> end
+    function4 --> end
+    function5 --> end
