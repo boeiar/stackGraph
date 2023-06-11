@@ -1,0 +1,18 @@
+digraph {
+	0 [label=cgt1]
+	1 [label=cgt2]
+	2 [label=main]
+	3 [label=__iar_program_start]
+	4 [label=__cmain]
+	5 [label=__low_level_init]
+	6 [label=exit]
+	7 [label=__default_handler]
+	8 [label=_exit]
+	9 [label=__exit]
+	10 [label=__iar_data_init3]
+	11 [label=__iar_copy_init3]
+	3 -> 4
+	4 -> 2
+	2 -> 0
+	0 -> 1
+}
