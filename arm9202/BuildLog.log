@@ -1,0 +1,115 @@
+﻿tp - Debug
+Reading project nodes...
+main.c
+"C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\bin\iccarm.exe" D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\main.c -o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol
+   IAR ANSI C/C++ Compiler V9.20.2.320/W64 for ARM
+   Copyright 1999-2021 IAR Systems AB.
+   PC-locked license - IAR Embedded Workbench for Arm, 32K Kickstart Edition 9.20
+D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\cgt.h(1) : Fatal Error[Pe003]: #include file "D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\cgt.h" includes itself
+Errors: 1
+Warnings: none
+Total number of errors: 1
+Total number of warnings: 0
+Build failed
+tp - Debug
+Reading project nodes...
+cgt.c
+"C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\bin\iccarm.exe" D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\cgt.c -o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol
+   IAR ANSI C/C++ Compiler V9.20.2.320/W64 for ARM
+   Copyright 1999-2021 IAR Systems AB.
+   PC-locked license - IAR Embedded Workbench for Arm, 32K Kickstart Edition 9.20
+ 
+ 10 bytes of CODE memory
+Errors: none
+Warnings: none
+main.c
+"C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\bin\iccarm.exe" D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\main.c -o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol
+   IAR ANSI C/C++ Compiler V9.20.2.320/W64 for ARM
+   Copyright 1999-2021 IAR Systems AB.
+   PC-locked license - IAR Embedded Workbench for Arm, 32K Kickstart Edition 9.20
+ 
+ 10 bytes of CODE memory
+Errors: none
+Warnings: none
+tp.out
+"C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\bin\ilinkarm.exe" D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\cgt.o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\main.o --no_out_extension -o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Exe\tp.out --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\List\tp.map --config "C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\config\linker\ST\stm32f107xC.icf" --semihosting --entry __iar_program_start --vfe --enable_stack_usage --call_graph D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202/CallGraph.xml --text_out locale
+   IAR ELF Linker V9.20.2.320/W64 for ARM
+   Copyright 2007-2021 IAR Systems AB.
+Warning[Ls017]: [stack usage analysis] the program contains at least one instance of recursion for which stack usage analysis has not been able to calculate a maximum stack depth. One function involved is "cgt1". A complete list of all recursion nests is in the map file.
+    184 bytes of readonly  code memory
+  4'096 bytes of readwrite data memory
+Errors: none
+Warnings: 1
+Link time:   0.02 (CPU)   0.04 (elapsed)
+Total number of errors: 0
+Total number of warnings: 1
+Build succeeded
+tp - Debug
+Reading project nodes...
+main.c
+"C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\bin\iccarm.exe" D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\main.c -o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol
+   IAR ANSI C/C++ Compiler V9.20.2.320/W64 for ARM
+   Copyright 1999-2021 IAR Systems AB.
+   PC-locked license - IAR Embedded Workbench for Arm, 32K Kickstart Edition 9.20
+ 
+ 10 bytes of CODE memory
+Errors: none
+Warnings: none
+cgt.c
+"C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\bin\iccarm.exe" D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\cgt.c -o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol
+   IAR ANSI C/C++ Compiler V9.20.2.320/W64 for ARM
+   Copyright 1999-2021 IAR Systems AB.
+   PC-locked license - IAR Embedded Workbench for Arm, 32K Kickstart Edition 9.20
+D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\cgt.c(6) : Warning[Pe223]: function "cgt2" declared implicitly
+ 
+ 24 bytes of CODE memory
+ 36 bytes of DATA memory
+Errors: none
+Warnings: 1
+tp.out
+"C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\bin\ilinkarm.exe" D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\cgt.o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\main.o --no_out_extension -o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Exe\tp.out --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\List\tp.map --config "C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\config\linker\ST\stm32f107xC.icf" --semihosting --entry __iar_program_start --vfe --enable_stack_usage --call_graph D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202/CallGraph.xml --text_out locale
+   IAR ELF Linker V9.20.2.320/W64 for ARM
+   Copyright 2007-2021 IAR Systems AB.
+    280 bytes of readonly  code memory
+     56 bytes of readonly  data memory
+  4'132 bytes of readwrite data memory
+Errors: none
+Warnings: none
+Link time:   0.02 (CPU)   0.01 (elapsed)
+Total number of errors: 0
+Total number of warnings: 1
+Build succeeded
+tp - Debug
+Reading project nodes...
+cgt.c
+"C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\bin\iccarm.exe" D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\cgt.c -o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol
+   IAR ANSI C/C++ Compiler V9.20.2.320/W64 for ARM
+   Copyright 1999-2021 IAR Systems AB.
+   PC-locked license - IAR Embedded Workbench for Arm, 32K Kickstart Edition 9.20
+ 
+ 24 bytes of CODE memory
+ 36 bytes of DATA memory
+Errors: none
+Warnings: none
+main.c
+"C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\bin\iccarm.exe" D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\main.c -o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol
+   IAR ANSI C/C++ Compiler V9.20.2.320/W64 for ARM
+   Copyright 1999-2021 IAR Systems AB.
+   PC-locked license - IAR Embedded Workbench for Arm, 32K Kickstart Edition 9.20
+ 
+ 10 bytes of CODE memory
+Errors: none
+Warnings: none
+tp.out
+"C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\bin\ilinkarm.exe" D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\cgt.o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Obj\main.o --no_out_extension -o D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\Exe\tp.out --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202\Debug\List\tp.map --config "C:\Program Files\IAR Systems\arm_9202ks-Embedded Workbench 9.0\arm\config\linker\ST\stm32f107xC.icf" --semihosting --entry __iar_program_start --vfe --enable_stack_usage --call_graph D:\Users\boe\Documents\BoE\git\ewarm\callgraph\arm9202/CallGraph.xml --text_out locale
+   IAR ELF Linker V9.20.2.320/W64 for ARM
+   Copyright 2007-2021 IAR Systems AB.
+    280 bytes of readonly  code memory
+     56 bytes of readonly  data memory
+  4'132 bytes of readwrite data memory
+Errors: none
+Warnings: none
+Link time:   0.02 (CPU)   0.01 (elapsed)
+Total number of errors: 0
+Total number of warnings: 0
+Build succeeded

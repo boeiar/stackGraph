@@ -1,0 +1,10 @@
+# ninja log v5
+0	40	7081845456519739	D:/Users/boe/Documents/BoE/git/ewarm/callgraph/arm9202/Debug/Obj/cgt.o	5ca72c571d78cf10
+3	43	7081845456519739	D:/Users/boe/Documents/BoE/git/ewarm/callgraph/arm9202/Debug/Obj/main.o	c2c1692f428a5b34
+45	104	7081845457169596	D:/Users/boe/Documents/BoE/git/ewarm/callgraph/arm9202/Debug/Exe/tp.out	21eef669bda12bc4
+7	35	7081846805080373	D:/Users/boe/Documents/BoE/git/ewarm/callgraph/arm9202/Debug/Obj/main.o	c2c1692f428a5b34
+4	43	7081846805110850	D:/Users/boe/Documents/BoE/git/ewarm/callgraph/arm9202/Debug/Obj/cgt.o	5ca72c571d78cf10
+45	70	7081846805430652	D:/Users/boe/Documents/BoE/git/ewarm/callgraph/arm9202/Debug/Exe/tp.out	21eef669bda12bc4
+1	32	7081846932465901	D:/Users/boe/Documents/BoE/git/ewarm/callgraph/arm9202/Debug/Obj/cgt.o	5ca72c571d78cf10
+4	35	7081846932460809	D:/Users/boe/Documents/BoE/git/ewarm/callgraph/arm9202/Debug/Obj/main.o	c2c1692f428a5b34
+37	62	7081846932775774	D:/Users/boe/Documents/BoE/git/ewarm/callgraph/arm9202/Debug/Exe/tp.out	21eef669bda12bc4
