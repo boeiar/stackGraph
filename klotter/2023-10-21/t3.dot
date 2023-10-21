@@ -1,0 +1,8 @@
+digraph callGraph {
+	 call_graphs_start ->  __iar_program_start ;
+	 __iar_program_start ->  __cmain ;
+	 __cmain ->  main ;
+	 main ->  cgt1 ;
+	 cgt1 ->  cgt2 ;
+	 call_graphs_start ->  __default_handler ;
+}
